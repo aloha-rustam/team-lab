@@ -1,3 +1,3 @@
 int summa(int a, int b, int n) {
-    return (b * n) % 100;
+    return (100 - (b * n)) % 100;
 }
